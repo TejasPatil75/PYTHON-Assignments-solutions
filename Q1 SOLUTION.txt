@@ -1,0 +1,15 @@
+1. Use descriptive names: Choose variable names that accurately describe the data they hold. This makes your code more understandable to others (and your future self!).
+
+2. Use snake_case: Variable names should be written in lowercase, with words separated by underscores. For example: `my_variable`, `user_name`, `total_score`.
+
+3. Avoid using single letters: Unless the variable represents a well-known convention (like `i` for loop counters), try to use descriptive names instead of single letters. This improves readability.
+
+4. Start with a letter or underscore: Variable names must start with a letter (a-z, A-Z) or an underscore (`_`). They can't start with a number or any other special character.
+
+5. Avoid reserved words: Don't use Python keywords as variable names. For example, you can't use `if`, `for`, `while`, `def`, etc. as variable names.
+
+6. Follow PEP 8: PEP 8 is the official style guide for Python code. It recommends using lowercase for variable names, and underscores to separate words. It also suggests keeping names short but descriptive. Adhering to PEP 8 makes your code consistent with the wider Python community.
+
+7. Use meaningful abbreviations: It's okay to use abbreviations as long as they are widely understood and make the code more readable. For example, `num` for "number", `str` for "string", etc.
+
+8. Be consistent: Maintain consistency in naming conventions throughout your codebase. If you choose a particular style for variable names, stick to it.

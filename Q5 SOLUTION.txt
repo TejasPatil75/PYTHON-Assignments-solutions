@@ -1,0 +1,25 @@
+Python is a dynamically typed language, which means that variable types are determined at runtime, and variables can be reassigned to different types of data. This dynamic nature of variables allows for flexibility and makes Python code concise and easy to write.
+
+Let's consider an example to illustrate how variables in Python are dynamic:
+
+# Declare a variable x and assign it an integer value
+x = 5
+print("x is:", x)  # Output: x is: 5
+
+# Now, reassign x to a string value
+x = "Hello, world!"
+print("x is now:", x)  # Output: x is now: Hello, world!
+
+# Reassign x to a list
+x = [1, 2, 3, 4, 5]
+print("x is now a list containing:", x)  # Output: x is now a list containing: [1, 2, 3, 4, 5]
+
+
+In this example:
+
+We initially declare the variable x and assign it an integer value (5).
+We then reassign x to a string value ("Hello, world!").
+Finally, we reassign x to a list ([1, 2, 3, 4, 5]).
+At each step, the type of the variable x changes dynamically based on the assigned value. Python doesn't require specifying the type of a variable explicitly; it infers the type based on the assigned value.
+
+This dynamic nature of variables allows for more flexible and expressive code. However, it also requires careful consideration to ensure that variables are used consistently and appropriately throughout the codebase.

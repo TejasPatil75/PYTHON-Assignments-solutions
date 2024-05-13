@@ -1,0 +1,1 @@
+If you attempt to declare a variable using a reserved keyword in Python, you'll encounter a syntax error. Python's reserved keywords are part of the language's syntax and have special meanings. These keywords are used to define the structure and flow of your code, such as control flow statements (if, else, for, while), defining functions (def), and more.
